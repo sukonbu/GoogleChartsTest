@@ -21,7 +21,7 @@ function drawChart() {
 
   data.addRows([[6,100]]);
 
-  
+
   //var data = new google.visualization.arrayToDataTable([
   //  ['Year','Sales','Expenses'],
   //  ['2004',  1000,      400],
@@ -33,8 +33,8 @@ function drawChart() {
 
   // Set chart options
   var options = {'title':'ninki no kenkyusitsu',
-                 'width':400,
-                 'height':300};
+                 'width':900,
+                 'height':400};
 
   // Instantiate and draw our chart, passing in some options.
   var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
